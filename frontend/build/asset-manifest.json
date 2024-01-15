@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0860cc10.css",
+    "main.js": "/static/js/main.fe8c04a7.js",
+    "static/media/bg.svg": "/static/media/bg.dc8f05ed5ee1ccb9a343.svg",
+    "static/media/airconnect.webp": "/static/media/airconnect.658a9f2217e7252f5643.webp",
+    "index.html": "/index.html",
+    "main.0860cc10.css.map": "/static/css/main.0860cc10.css.map",
+    "main.fe8c04a7.js.map": "/static/js/main.fe8c04a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0860cc10.css",
+    "static/js/main.fe8c04a7.js"
+  ]
+}

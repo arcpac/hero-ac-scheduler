@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+h1 {
+  /* letter-spacing: 0.1rem; */
+  /* font-size: 1.25rem; */
+  font-family: "Inter", serif;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  color: #000000;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* letter-spacing: 0.1rem; */
+  /* font-size: 1.25rem; */
+  font-family: "Inter", serif;
+  font-weight: 500 !important;
+  color: #1c2434 !important;
+  padding-bottom: 10px !important;
+}
+
+.blueBackground {
+  background-color: RGBA(239, 241, 253);
+  padding: 8px 15px 8px 15px;
+  border-radius: 30px;
+  color: #475be2;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+.yellowBackground {
+  background-color: RGBA(255, 167, 11, 0.08);
+  padding: 8px 15px 8px 15px;
+  border-radius: 30px;
+  color: #ffa70b;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+.p-toolbar,
+.p-datatable-header {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Add this to your CSS file or style block */
+.container-with-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+  padding-top: 5px; /* Adjust the padding as needed */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  margin-bottom: 10px;
+}
+
+/* Add this to your CSS file or style section in the component */
+.custom-datatable table {
+  border-bottom: 2px solid #e2e8f0;
+  color: #212529 !important;
+}
+
+.custom-datatable th,
+.custom-datatable td {
+  border-bottom: 1px solid #e2e8f0;
+  color: #212529 !important;
+  padding: 10px 0px 10px 15px;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  padding: 20px 0px 20px 15px;
+  /* color: #6e7680; */
+  border-bottom-width: 2px;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  color: #6e7680;
+}
+
+.p-dropdown-items {
+  padding-left: 0px !important;
+}
+
+button {
+  margin-bottom: 0px !important;
+}
+
+.p-paginator-bottom {
+  border-top: 1px solid #e2e8f0 !important;
+}
+
+.white-button {
+  background-color: white !important;
+  border: 1px solid #d0d5dd !important;
+  color: #344054 !important;
+  border-radius: 8px !important;
+}
+
+.red-button {
+  background-color: #d33 !important;
+  border: 1px solid #d0d5dd !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+
+.blue-button {
+  background-color: #2d6fd1;
+  margin: 0px 8px 0px 8px;
+  border-radius: 8px;
+  border: 1px solid #0070ff !important;
+  color: white;
+}
+
+.green-button {
+  background-color: #e2fff5 !important;
+  border-radius: 8px;
+  border: 2px solid #024d33 !important;
+  color: #024d33 !important;
+}
+
+.blue-btn {
+  background-color: #e5f7ff !important;
+  border-radius: 8px;
+  border: 2px solid #004d6f !important;
+  color: #004d6f !important;
+}
+
+.blue-button:hover {
+  background-color: #1556b7;
+}
+
+.delete-button {
+  background-color: white !important;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-footer {
+  padding: 0px;
+}
+
+.tab-container {
+  display: flex;
+  overflow-x: auto;
+  border-bottom: 2px solid #dfe3e8;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.tab.active {
+  border-color: #007bff;
+}
+
+.tab-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.tab-container::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 4px;
+}
+
+.tab-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+div.active {
+  color: #2d6fd1;
+}
+
+.tab {
+  color: #1c2434;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  margin-right: 30px;
+  padding-right: 30px;
+}
+
+.search-bar {
+  width: 275px;
+  color: #2d6fd1;
+  border-radius: 3px !important;
+  color: var(--rs-text-secondary) !important;
+}
+
+.multi-select {
+  width: 210px;
+  border-radius: 3px !important;
+  height: 2.2rem;
+}
+
+.dropdown-status {
+  height: 2.35rem;
+  border-radius: 3px !important;
+}
+
+.p-dropdown-label {
+  font-size: 15px !important;
+  border-color: #c5c6c7;
+  color: #6b7280;
+  padding-top: 8px;
+  /* font-weight: 500; */
+}
+
+.date-picker {
+  width: 230px;
+  border-radius: 3px !important;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.p-component #multi-select {
+  font-size: 12px;
+  color: var(--rs-text-secondary) !important;
+}
+
+.p-component {
+  font-size: 15px;
+}
+
+.rs-picker-daterange-content {
+  color: black;
+}
+
+.p-multiselect .p-multiselect-label {
+  padding: 0.5rem 0.75rem;
+}
+
+.rs-picker-default .rs-picker-toggle {
+  height: 2.4rem;
+  border: 1px solid #d1d5db !important;
+  border-radius: 3px !important;
+}
+
+.custom-input {
+  height: 2.2rem;
+  font-size: 15px !important;
+  letter-spacing: normal !important;
+}
+
+.buttonStyle {
+  background-color: transparent !important;
+  cursor: pointer;
+  padding: 0;
+  font-weight: bold;
+  color: #333a48;
+}
+
+.danger-button {
+  background-color: #dc3545 !important;
+  color: #ffffff !important;
+  margin-left: 10px;
+}
+
+#delete-bg {
+  background-color: rgba(224, 240, 254, 0.5) !important;
+  padding: 10px !important;
+}
+
+/* Add this style in your CSS/SCSS file */
+.toggleButtonRightIcon {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+}
+
+.header-tab {
+  font-size: 14px !important;
+  border-color: #c5c6c7;
+  color: #a6a6a6;
+  font-weight: 500;
+}
+
+.active-head {
+  color: #2d6fd1;
+  font-weight: bold !important;
+  background-color: #f0f3f7;
+}
+
+.header-tab:hover {
+  color: #1755e7;
+  border-color: #c5c6c7;
+  font-weight: bold;
+}
+
+.no-color-btn,
+.no-color-btn .pi {
+  background-color: transparent !important;
+  color: #1755e7 !important;
+  padding: 5px;
+  font-weight: 400 !important;
+  border-color: transparent;
+}
+
+#no-padding {
+  padding-left: 0px;
+  padding-right: 0px !important;
+}
+
+.acc-bg,
+.p-accordion-header-link {
+  background-color: #d1ecf1 !important;
+  color: #000 !important;
+}
+
+.acc-icon {
+  margin-left: 5px;
+  font-size: 1.2rem;
+  /* color: #000 !important; */
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+  border-width: 0px !important;
+  padding: 1em !important;
+}
+
+td#modal-bg {
+  background-color: #d1ecf1 !important;
+}
+
+.info-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-icon {
+  margin-right: 8px;
+}
+
+.no-bg {
+  background-color: #fff !important;
+}
+
+.css-innj4t-MuiPickersYear-yearButton.Mui-selected {
+  padding: 0 !important;
+}
+
+.css-innj4t-MuiPickersYear-yearButton, .css-innj4t-MuiPickersYear-yearButton:hover {
+  padding: 0 !important;
+}

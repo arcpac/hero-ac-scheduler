@@ -1,0 +1,73 @@
+/* Add this to your CSS file or style tag */
+.mqtt-indicator-container {
+  display: flex;
+  align-items: center;
+}
+
+.mqtt-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust this margin as needed */
+  background-color: red; /* Default color, adjust as needed */
+  animation: blinker 2s linear infinite; /* Blinking animation */
+}
+
+.mqtt-indicator.green {
+  background-color: green;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.big-blue-button {
+  background-color: #1755e7;
+  background-image: url("../images/union-less.svg"); /* Specify the path to your background image */
+  background-size: 150% 200%; /* Adjust this property based on your image size preferences */
+  border-radius: 20px;
+  border: 1px solid #0070ff !important;
+  color: white;
+}
+
+.custom-date-calendar {
+  border-radius: 20px;
+}
+
+.next-holiday-container {
+  background-color: #141522 !important;
+  color: #fff !important;
+  background-image: url("../images/union-less.svg");
+  background-size: 150% 200%;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+div#countdown li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 2em;
+  text-transform: uppercase;
+}
+
+div#countdown li span {
+  display: block;
+  /* font-size: 4rem; */
+}
+
+.bd-radius {
+  border-radius: 20px;
+}
+
+.gray-bg {
+  background-color: #F8F9FD !important;
+  color: #778499 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.upcoming-holidays-container {
+  background-color: #d1ecf1 !important;
+}

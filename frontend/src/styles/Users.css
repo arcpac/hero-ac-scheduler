@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.search-bar {
+  width: 275px;
+  color: #2d6fd1;
+  border-radius: 6px !important;
+  color: var(--rs-text-secondary) !important;
+}
+
+.custom-input {
+  height: 2.2rem;
+  font-size: 15px !important;
+  letter-spacing: normal !important;
+}
+
+.greenBackground {
+  background-color: RGBA(33, 150, 83, 0.08);
+  padding: 8px 15px 8px 15px;
+  border-radius: 30px;
+  color: #219653;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+.redBackground {
+  background-color: RGBA(255, 167, 11, 0.08);
+  padding: 8px 15px 8px 15px;
+  border-radius: 30px;
+  color: #FFA70B;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+.deletedBackground {
+  background-color: RGBA(211, 64, 83, 0.08);
+  padding: 8px 15px 8px 15px;
+  border-radius: 30px;
+  color: #d34053;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+.custom-datatable table {
+  border-bottom: 2px solid #e2e8f0; /* Replace with your color code */
+}
+
+.custom-datatable th,
+.custom-datatable td {
+  border-bottom: 1px solid #e2e8f0; /* Replace with your color code */
+  padding: 10px 0px 10px 15px;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  padding: 20px 0px 20px 15px;
+  color: #6e7680;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  color: #212529;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-footer {
+  padding: 0px;
+}
+
+.blue-button {
+  background-color: #2d6fd1;
+  margin: 0px 8px 0px 8px;
+  border-radius: 8px;
+  border: 1px solid #0070ff !important;
+  color: white;
+}
+
+.blue-button:hover {
+  background-color: #1556b7;
+}
+
+.active-head {
+  color: #2d6fd1;
+  font-weight: 600;
+  background-color: #f0f3f7;
+}
+
+.p-column.title .margin.left {
+  padding-left: 10px !important;
+}

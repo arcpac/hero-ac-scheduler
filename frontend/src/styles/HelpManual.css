@@ -1,0 +1,117 @@
+.help-card {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  border-radius: 0;
+  margin: 10%;
+  background: #fff;
+  border-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.body-card {
+  background-color: #f7f7f7;
+}
+
+.help-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.text-card {
+  line-height: 1.5em;
+}
+
+.p-accordion-content {
+  border: none;
+}
+
+/* HelpModerator.css */
+
+/* HelpManual.css */
+
+.help-moderator-container {
+  /* display: flex; */
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.help-moderator-content-container {
+  display: flex;
+}
+
+.accordion-container {
+  flex-shrink: 0;
+  width: 20%;
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 0 16px; /* Add padding for content */
+}
+
+.content {
+  padding: 16px;
+}
+
+.ng-right {
+  margin-left: 210px !important;
+}
+
+.faq:hover {
+  cursor: pointer;
+  font-weight: bold !important;
+}
+
+.selected {
+  font-weight: bold;
+  color: #007bff !important;
+}
+
+.img-w10 {
+  max-width: 10%;
+  height: auto;
+}
+
+.img-w20 {
+  max-width: 20%;
+  height: auto;
+}
+
+.img-w30 {
+  max-width: 30%;
+  height: auto;
+}
+
+.img-w40 {
+  max-width: 40%;
+  height: auto;
+}
+
+.img-w50 {
+  max-width: 50%;
+  height: auto;
+}
+
+.img-w60 {
+  max-width: 60%;
+  height: auto;
+}
+
+.img-w70 {
+  max-width: 70%;
+  height: auto;
+}
+
+.img-w80 {
+  max-width: 80%;
+  height: auto;
+}
+
+.img-w90 {
+  max-width: 90%;
+  height: auto;
+}

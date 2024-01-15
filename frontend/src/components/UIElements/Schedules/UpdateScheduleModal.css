@@ -1,0 +1,91 @@
+/* UpdateScheduleModal.css */
+
+#view-modal > .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0 !important;
+}
+
+#view-modal > .modal-body > label {
+  text-align: right;
+  font-size: medium;
+  border: 0 !important;
+}
+
+
+#view-modal {
+  border-color: #fff;
+}
+
+#view-modal th {
+  text-align: right !important;
+  font-weight: 600;
+  background-color: #eee;
+  font-size: medium !important;
+  width: 30% !important;
+}
+
+#view-modal td {
+  text-align: left;
+  vertical-align: top;
+  background-color:#f9f9f9 !important;
+}
+
+#view-modal > .modal {
+  border-radius: 0 !important;
+}
+
+.modal-content {
+  border-radius: 3px !important;
+}
+
+#view-modal > .modal-content,
+.modal-dialog {
+  border-radius: 0 !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#view-modal .form-control:disabled {
+  background-color: #f9f9f9;
+  border: 0;
+  border-radius: 0 !important;
+  font-weight: 500 !important;
+  margin-top: -5px;
+}
+
+#view-modal td {
+  text-align: left;
+  vertical-align: top;
+  background-color: #f9f9f9 !important;
+  word-wrap: break-word;
+  font-weight: 500;
+}
+
+#view-modal textarea[disabled] {
+  resize: none;
+  word-wrap: break-word; 
+}
+
+#view-modal td th:contains("Information:") {
+  word-wrap: break-word;
+}
+
+#view-modal textarea {
+  width: 100%;
+  resize: vertical; 
+  word-wrap: break-word; 
+}
+
+#view-modal input {
+  margin-bottom: 0em !important;
+}
+
+.text-medium {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.fixed-width-date {
+  width: 32.5em !important;
+}
