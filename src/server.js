@@ -8,7 +8,7 @@ const { mongoConnect } = require("../src/services/mongo")
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "..", "frontend", "build")))
+app.use(express.static(path.join(__dirname, "..", "frontend", "public")))
 
 // ...
 // Right before your app.listen(), add this:
