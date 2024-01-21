@@ -12,5 +12,11 @@ Hi team,Please refer to this board for the documentation of our project plan and
 ## Node Version
 install v18.12.1 node version
 
-## Milestone
-![Milestone](frontend/milestone.png)
+## Application
+![Milestone](frontend/mernapp.png)
+
+## MQTT Communication
+![Milestone](frontend/DBCOMM.png)
+
+## NodeRED
+![Milestone](frontend/NODERED.png)
